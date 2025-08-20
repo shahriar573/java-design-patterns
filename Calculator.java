@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Computer
 {
     public int add(int a, int b)
@@ -23,3 +24,24 @@ public class Computer
         return a/b;
     }
 }
+=======
+public class Calculator {
+    public int add(int a, int b) {
+        System.out.println("Adding numbers in MAIN branch");
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        System.out.println("Subtracting numbers in MAIN branch");
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public int divide(int a, int b) {
+        return a / b;
+    }
+}
+>>>>>>> fbc0475adb176f93fdd53ae6aa3fdafecc95a86e
